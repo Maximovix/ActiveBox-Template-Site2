@@ -14,9 +14,10 @@ body {
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 h1, h2, h3, h4, h5 ,h6 {
@@ -238,6 +239,138 @@ p {
 .works_content {
 	opacity: 1;
 }
+
+
+/* Team */
+.team {
+	margin: 100px 0 70px;
+}
+
+.team_inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.team_item {
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.team_photo {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.team_name {
+	font-size: 22px;
+	color: #000;
+	margin: 15px 0 5px;
+}
+
+.team_profession {
+	font-size: 13px;
+	color: #e84545;
+	text-transform: uppercase;
+
+	margin-bottom: 30px;
+}
+
+.team_text {
+	color: #6c7279;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Social */
+.social {
+	display: flex;
+}
+
+.social_item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	margin-right: 4px;
+
+	background-color: #fff;
+	border: 1px solid #e8ecee;
+
+	transition: background .3s linear;
+}
+
+.social_item:hover {
+	background-color: #e8ecee;
+}
+
+.social_icon {
+	display: block;
+	fill: #c6cacc;
+	height: 18px;
+
+	transition: fill .3s linear;
+}
+
+.social_item:hover
+.social_icon {
+	fill: #e84545;
+}
+
+/* Clients */
+.clients {
+	overflow: hidden;
+	background-color: #53354a;
+}
+
+.clients_item {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.clients_photo {
+	width: 50%;
+	height: 500px;
+	position: relative;
+}
+
+.clients_image {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 1;
+
+	transform: translate(0,-50%);
+}
+
+.clients_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 80px;
+	width: 50%
+}
+
+.clients_text {
+	font-family: 'Cardo', sans-serif;
+	font-style: italic;
+	font-size: 36px;
+	line-height: 1.2;
+	color: #fff;
+}
+
+.clients_author {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	margin-top: 25px;
+}
+
 
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;  */
